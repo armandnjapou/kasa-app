@@ -1,10 +1,10 @@
 import './Banner.scss';
 
-function Banner() {
+function Banner(props) {
+    
     return (
-        <div className="banner">
-            <div className="banner__mask"></div>
-            <p>Chez vous, partout et ailleurs</p>
+        <div className="banner" style={{ background: `url(${props.background})` }}>
+            <p>{props.title}</p>
         </div>
     );
 }
