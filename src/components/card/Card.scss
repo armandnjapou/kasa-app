@@ -1,0 +1,20 @@
+.card {
+    position: relative;
+    margin: 28px 0px;
+    padding: 0px 20px;
+    height: 340px;
+    width: 340px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6060, rgba(0, 0, 0, 0.5) 100%);
+
+    &__title {
+        position: absolute;
+        color: white;
+        bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

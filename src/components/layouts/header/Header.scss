@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    left: 100px;
+    top: 40px;
+    color: #FF6060;
+    margin: 40px auto;
+
+    img {
+        margin: 0px 5px;
+    }
+    
+    ul {
+        display: flex;
+        font-size: 34px;
+        a {
+            color: #FF6060;
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+            margin-left: 50px;
+        }
+    }
+}
+
