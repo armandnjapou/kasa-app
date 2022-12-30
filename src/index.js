@@ -9,7 +9,6 @@ import {
   RouterProvider
 } from "react-router-dom";
 import ErrorPage from './components/error-page';
-import Header from './components/layouts/header/Header';
 import About from './components/About';
 import Footer from './components/layouts/footer/Footer';
 
