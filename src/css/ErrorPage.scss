@@ -1,0 +1,25 @@
+.error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: #FF6060;
+
+    &__status {
+        font-weight: 700;
+        font-size: 288px;
+        line-height: 142.6%;
+    }
+
+    &__desc {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 142.6%;
+    }
+
+    &__redirect {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+    }
+}

@@ -2,6 +2,7 @@ import Banner from "./banner/Banner";
 import GreyContainer from "./layouts/grey-container/GreyContainer";
 import Background from '../assets/images/eric-muhr-P_XxsdVgtpQ-unsplash.jpg';
 import Header from "./layouts/header/Header";
+import Footer from "./layouts/footer/Footer";
 
 function App() {
   let cards = [];
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <Banner title="Chez vous, partout et ailleurs" background={Background} />
       <GreyContainer cards={cards} />
+      <Footer />
     </div>
   );
 }

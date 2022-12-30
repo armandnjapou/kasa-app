@@ -2,6 +2,7 @@ import Banner from "./banner/Banner";
 import Background from "../assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash.png";
 import AboutContainer from "./layouts/about-container/AboutContainer";
 import Header from "./layouts/header/Header";
+import Footer from "./layouts/footer/Footer";
 
 function About() {
 
@@ -17,6 +18,7 @@ function About() {
             <Header />
             <Banner background={Background} />
             <AboutContainer items={items} />
+            <Footer />
         </div>
     );
 }
