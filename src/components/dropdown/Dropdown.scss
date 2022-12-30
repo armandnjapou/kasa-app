@@ -1,0 +1,37 @@
+.dropdown {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 142.6%;
+    color: #FF6060;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        color: #FFFF;
+        width: 100%;
+        background: #FF6060;
+        border-radius: 10px;
+        padding: 13px 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 142.6%;
+        cursor: pointer;
+
+        & img {
+            width: 24px;
+            height: 14px;
+        }
+    }
+
+    &__body {
+        width: 100%;
+        background: #F6F6F6;
+        padding: 13px 20px;
+        border-radius: 10px;
+    }
+}
+
+.hidden {
+    display: none;
+}

@@ -14,8 +14,8 @@ function Header() {
         <img src={A} alt="Logo" />
       </span>
       <ul>
-        <a href='#home'><li>Accueil</li></a>
-        <a href='#about'><li>A propos</li></a>
+        <a href='/'><li>Accueil</li></a>
+        <a href='/about'><li>A propos</li></a>
       </ul>
     </div>
   );

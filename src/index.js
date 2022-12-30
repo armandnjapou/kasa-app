@@ -10,20 +10,27 @@ import {
 } from "react-router-dom";
 import ErrorPage from './components/error-page';
 import Header from './components/layouts/header/Header';
+import About from './components/About';
+import Footer from './components/layouts/footer/Footer';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />
-  },
+  }, {
+    path: "/about",
+    element: <About />,
+    errorElement: <ErrorPage />
+
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={router} />
+    <Footer />
   </React.StrictMode>
 );
 
