@@ -2,12 +2,14 @@ import './Card.scss';
 
 function Card(props) {
 
-    const title = props.title;
+    const data = props.data;
+    let url = '/location?id=' + data.id;
 
     return (
-        <div className="card">
-            <p className="card__title">{title}</p>
-        </div>
+        <a href={url} className="card">
+            <img src={data.cover} alt='Cover' />
+            <p className="card__title">{data.title}</p>
+        </a>
     );
 }
 

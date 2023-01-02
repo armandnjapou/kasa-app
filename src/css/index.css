@@ -12,5 +12,5 @@ code {
 
 .main {
   margin: auto;
-  width: 1240px;
+  max-width: 1240px;
 }

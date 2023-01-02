@@ -3,26 +3,18 @@ import GreyContainer from "./layouts/grey-container/GreyContainer";
 import Background from '../assets/images/eric-muhr-P_XxsdVgtpQ-unsplash.jpg';
 import Header from "./layouts/header/Header";
 import Footer from "./layouts/footer/Footer";
+import data from '../assets/data.json';
 
-function App() {
-  let cards = [];
-
-  for (let i = 1; i <= 6; i++) {
-    let card = {
-      'id': i,
-      'title': 'Titre de la location'
-    }
-    cards.push(card);
-  }
+function HomePage() {
 
   return (
-    <div class="main">
+    <div className="main">
       <Header />
       <Banner title="Chez vous, partout et ailleurs" background={Background} />
-      <GreyContainer cards={cards} />
+      <GreyContainer locations={data} />
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default HomePage;

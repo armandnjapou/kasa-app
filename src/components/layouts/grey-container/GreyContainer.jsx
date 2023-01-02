@@ -2,10 +2,11 @@ import Card from "../../card/Card";
 import './GreyContainer.scss';
 
 function GreyContainer(props) {
-    const cards = props.cards;
+    console.log(props);
+    const cards = props.locations;
 
     const listItems = cards.map((card) =>
-        <Card key={card.id} title={card.title} />
+        <Card key={card.id} data={card} />
     );
 
     return (
