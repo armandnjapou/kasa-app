@@ -26,8 +26,8 @@ export default function AccomodationPage(props) {
                 <Carrousel pictures={pictures} />
                 <div className='accomodation-page'>
                     <div className='half-width'>
-                        <h1 className='accomodation-page__title'>Cozy loft on the Canal Saint-Martin</h1>
-                        <h3 className='accomodation-page__subtitle'>Paris, Île-de-France</h3>
+                        <h1 className='accomodation-page__title'>{accomodation.title}</h1>
+                        <h3 className='accomodation-page__subtitle'>{accomodation.location}</h3>
                         {tags}
                     </div>
                     <div className='half-width accomodation-page__right'>
