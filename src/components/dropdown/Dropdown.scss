@@ -4,13 +4,13 @@
     font-weight: 500;
     line-height: 142.6%;
     color: #FF6060;
+    padding-inline-start: 0%;
 
     &__header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #FFFF;
-        width: 100%;
         background: #FF6060;
         border-radius: 10px;
         padding: 13px 20px;
@@ -26,7 +26,6 @@
     }
 
     &__body {
-        width: 100%;
         background: #F6F6F6;
         padding: 13px 20px;
         border-radius: 10px;

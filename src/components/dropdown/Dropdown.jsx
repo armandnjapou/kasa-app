@@ -42,7 +42,7 @@ function Dropdown(props) {
 
     if (listItems != null) {
         dropdownBody = listItems.map((item) => 
-            <li key={item.id}>{item.title}</li>
+            <li key={item}>{item}</li>
         )
     }
 

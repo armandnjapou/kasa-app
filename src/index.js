@@ -11,7 +11,7 @@ import {
 import HomePage from './components/HomePage'
 import ErrorPage from './components/ErrorPage';
 import AboutPage from './components/AboutPage';
-import LocationPage from './components/LocationPage';
+import AccomodationPage from './components/AccomodationPage';
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <HomePage />,
     errorElement: <ErrorPage />
   }, {
-    path: "/location",
-    element: <LocationPage />,
+    path: "/accomodation",
+    element: <AccomodationPage />,
     errorElement: <ErrorPage />
 
   }, {

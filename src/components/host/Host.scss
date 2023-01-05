@@ -1,0 +1,16 @@
+.host {
+    display: flex;
+    margin: 15px 0px;
+
+    & span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+        margin-right: 8px;
+    }
+
+    & img {
+        width: 64px;
+        border-radius: 50%;
+    }
+}

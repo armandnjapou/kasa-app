@@ -14,3 +14,7 @@ code {
   margin: auto;
   max-width: 1240px;
 }
+
+.half-width {
+  width: 50%;
+}
