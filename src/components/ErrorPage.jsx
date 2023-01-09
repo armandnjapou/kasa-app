@@ -1,10 +1,7 @@
-import { useRouteError } from "react-router-dom";
 import Header from "./layouts/header/Header";
 import '../css/ErrorPage.scss';
 
 export default function ErrorPage() {
-    const error = useRouteError();
-    console.error(error);
 
     return (
         <div id="error-page" className="main">

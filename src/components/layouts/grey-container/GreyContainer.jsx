@@ -2,7 +2,6 @@ import Card from "../../card/Card";
 import './GreyContainer.scss';
 
 function GreyContainer(props) {
-    console.log(props);
     const cards = props.locations;
 
     const listItems = cards.map((card) =>
